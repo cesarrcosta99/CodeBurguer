@@ -4,9 +4,8 @@ import routes from "./routes"
 
 class App {
     constructor(){
-        this.app=express()
-
-
+        this.app=express() 
+        
         this.middlewares()
         this.routes()
     }
@@ -21,4 +20,3 @@ class App {
 }
 
 export default new App().app
-
